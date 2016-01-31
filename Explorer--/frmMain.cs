@@ -31,6 +31,12 @@ namespace WindowsFormsApplication1
 
         private void PopulateTreeView()
         {
+            if (Directory.Exists(szRoot) == false)
+            {
+                MessageBox.Show("The root directory does not exist on this computer." + Environment.NewLine + szRoot);
+                return;
+            }
+
             TreeNode rootNode;
             
             DirectoryInfo info = new DirectoryInfo(szRoot);
