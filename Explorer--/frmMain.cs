@@ -94,7 +94,7 @@ namespace WindowsFormsApplication1
 
         private void NodeSelect(TreeNode newSelected)
         {
-            /* Load all the files and directorys in the selected node from the treeview */
+            /* Load all the files and directories in the selected node from the treeview */
 
             listView1.Items.Clear();
             DirectoryInfo nodeDirInfo = (DirectoryInfo)newSelected.Tag;
