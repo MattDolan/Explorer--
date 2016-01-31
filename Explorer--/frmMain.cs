@@ -138,6 +138,8 @@ namespace WindowsFormsApplication1
             listView1.Visible = true;
         }
 
+        /********************************************/
+
         private void treeView1_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
             TreeNode newSelected = e.Node;
@@ -159,6 +161,8 @@ namespace WindowsFormsApplication1
 
             NodeSelect(newSelected);
         }
+
+        /********************************************/
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -204,6 +208,8 @@ namespace WindowsFormsApplication1
             }
         }
 
+        /********************************************/
+
         private void listView1_MouseUp(object sender, MouseEventArgs e)
         {
             if (FocusTreeview == true)
@@ -212,6 +218,8 @@ namespace WindowsFormsApplication1
                 FocusTreeview = false;
             }
         }
+
+        /********************************************/
 
         private void listView1_DoubleClick(object sender, EventArgs e)
         {
@@ -257,45 +265,6 @@ namespace WindowsFormsApplication1
                 }
 
             }
-        }
-
-        /**********************************************************************************************************/
-
-        private void listView1_Click(object sender, EventArgs e)
-        {
-            //if (listView1.SelectedItems.Count > 0)
-            //{
-            //    var item = listView1.SelectedItems[0];
-
-            //    if (item.SubItems[1].Text == "Directory")
-            //    {
-
-            //        TreeNode[] tns = treeView1.Nodes.Find(item.Text, true);
-            //        if (tns.Length > 0)
-            //        {
-
-            //            /* Record the path that is being navigated */
-
-            //            if (szSubFolder == "")
-            //            {
-            //                szSubFolder = item.Text + "\\";
-            //            }
-            //            else
-            //            {
-            //                szSubFolder = szSubFolder + item.Text + "\\";
-            //            }
-
-            //            /* Select the node in the tree */
-
-            //            treeView1.Focus();
-            //            NodeSelect(tns[0]);
-            //            treeView1.SelectedNode = tns[0];
-            //            tns[0].Expand();
-            //            FocusTreeview = true;
-            //        }
-            //        return;
-            //    }
-            //}
         }
 
         /**********************************************************************************************************/
