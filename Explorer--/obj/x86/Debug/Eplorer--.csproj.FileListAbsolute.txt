@@ -1,0 +1,15 @@
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\bin\Debug\Explorer--.exe
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\bin\Debug\Explorer--.pdb
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.frmMain.resources
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\obj\x86\Debug\ExplorerMinusMinus.Properties.Resources.resources
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\obj\x86\Debug\Eplorer--.csproj.GenerateResource.Cache
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\obj\x86\Debug\Explorer--.exe
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\obj\x86\Debug\Explorer--.pdb
+C:\GitHub\Explorer--\Explorer--\obj\x86\Debug\Explorer--.exe
+C:\GitHub\Explorer--\Explorer--\obj\x86\Debug\Explorer--.pdb
+C:\GitHub\Explorer--\Explorer--\bin\Debug\Explorer--.exe
+C:\GitHub\Explorer--\Explorer--\bin\Debug\Explorer--.pdb
+C:\GitHub\Explorer--\Explorer--\obj\x86\Debug\Eplorer--.csprojResolveAssemblyReference.cache
+C:\GitHub\Explorer--\Explorer--\obj\x86\Debug\WindowsFormsApplication1.frmMain.resources
+C:\GitHub\Explorer--\Explorer--\obj\x86\Debug\ExplorerMinusMinus.Properties.Resources.resources
+C:\GitHub\Explorer--\Explorer--\obj\x86\Debug\Eplorer--.csproj.GenerateResource.Cache

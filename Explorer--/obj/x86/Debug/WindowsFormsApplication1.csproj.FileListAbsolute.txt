@@ -1,0 +1,14 @@
+C:\ProjectsCorpv\ATT West\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\ProjectsCorpv\ATT West\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\ProjectsCorpv\ATT West\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\ProjectsCorpv\ATT West\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\ProjectsCorpv\ATT West\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\ProjectsCorpv\ATT West\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\ProjectsCorpv\ATT West\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\GitHub\Explorer--\Explorer--\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
