@@ -288,5 +288,69 @@ namespace WindowsFormsApplication1
             key.Close();
             key.Dispose();
         }
+
+        private void listView1_DragEnter(object sender, DragEventArgs e)
+        {
+            /* You must handle the effect */
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                e.Effect = DragDropEffects.All;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+
+        private void listView1_DragDrop(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+                foreach (string filePath in files)
+                {
+
+                    if (File.Exists(szRoot + szSubFolder + Path.GetFileName(filePath)) == true)
+                    {
+                        if (MessageBox.Show("That file already exists in the job folder." + Environment.NewLine + "Do you want to overwrite it?", "Overwrite?", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                        {
+                            try
+                            {
+                                File.Delete(szRoot + szSubFolder + Path.GetFileName(filePath));
+                                File.Copy(filePath, szRoot + szSubFolder + Path.GetFileName(filePath));
+                            }
+                            catch (Exception ex)
+                            {
+                                MessageBox.Show("Unable to overwrite file " + Environment.NewLine + szRoot + szSubFolder + Path.GetFileName(filePath) + Environment.NewLine + ex.Message);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        File.Copy(filePath, szRoot + szSubFolder + Path.GetFileName(filePath));
+                    }
+                    
+                }
+                PopulateTreeView();
+            }
+        }
+
+        private void listView1_KeyDown(object sender, KeyEventArgs e)
+        {
+            //if (e.KeyCode == Keys.Delete)
+            //{
+            //    /* Check if any items are selected */
+            //
+            //    /* Delete the selected item */
+            //try
+            //{
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show(ex.Message);
+            //}
+            //    e.Handled = true;
+            //}
+        }
     }
 }
